@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hero__section{
+    background-image: url('./images/heroimg3.svg');
+    background-position: bottom;
+}
+
+@media screen and (max-width:767px){
+    .hero__section{
+        background-image: none;
+    }
+}
